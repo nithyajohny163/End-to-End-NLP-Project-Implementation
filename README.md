@@ -1,14 +1,40 @@
-# End-to-End-NLP-Project-Implementation
+# End-to-end-NLP-Project-Implementation
 
 
-'''nithya
+## Project Workflows
+
+- constants
+- config_enity
+- artifact_enity
+- components
+- pipeline
+- app.py
+
+
+## How to run?
+
+```nithya
 conda create -n hate python=3.8 -y
-'''
+```
 
-'''nithya
+```nithya
 conda activate hate
-'''
+```
 
-'''nithya
+```nithya
 pip install -r requirements.txt
-'''
+```
+
+```nithya
+python app.py
+```
+
+
+## Deployment
+
+1. Setting up circleCI
+2. Switch on self hosted runner
+3. Create Project
+4. Configure EC2
+5. config.yml
+6. env variables
